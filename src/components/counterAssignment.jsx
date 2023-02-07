@@ -8,13 +8,13 @@ export class  Counter1 extends React.Component {
 //     this.handleDecrement.handleDecrement.bind(this)
 // }
  state= {
-    count:0
+    count:5
  }
  handleIncrement=()=>{
-  this.setstate=({count:this.state.count+10});
+  this.setState({count:this.state.count+10});
  }
  handleDecrement=()=>{ 
-  this.setState=({count:this.state.count + 20});
+  this.setState({count:this.state.count + 20});
   
 }
 
